@@ -15,6 +15,10 @@ dotenv.config();
 connectDB();
 
 const app = express();
+
+// ✅ Fix for platforms like Render/Railway
+app.set('trust proxy', 1); // ← Add this line
+
 app.use(cors());
 app.use(express.json());
 app.use(morgan('dev'));
