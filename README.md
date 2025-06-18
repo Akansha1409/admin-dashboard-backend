@@ -35,26 +35,6 @@ A powerful and secure backend system built with **Node.js**, **Express**, and **
 
 ---
 
-## 📁 Folder Structure
-
- admin-dashboard-backend/
-│
-├── config/ # DB connection & config
-├── controllers/ # All route logic
-├── middleware/ # Auth, role, rate limiter
-├── models/ # MongoDB schemas
-├── routes/ # API route definitions
-├── swagger/ # Swagger docs
-├── utils/ # Utility functions
-├── .env # Environment variables
-├── .gitignore
-├── README.md
-├── package.json
-└── server.js
-
-
----
-
 ## 🧪 Setup Instructions
 
 ### 🔧 Prerequisites
